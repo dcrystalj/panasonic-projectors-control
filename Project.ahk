@@ -57,7 +57,7 @@ WinWait, Wireless Manager, , 3
 }
 ; rotate
 Send, ^!{Right}
-Sleep, 1000
+Sleep, 500
 
 ; run presentation
 Run, "C:\Users\janez\Desktop\pesmi.pps"
@@ -70,6 +70,3 @@ if WinExist("Microsoft Office Activation Wizard") {
     Sleep, 500
     Send {Enter}
 }
-
-;~ Send {enter}
-;~ Send {enter}
